@@ -15,14 +15,24 @@
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.6",
+    "react-native-svg": "^13.4.0",
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "react-native-svg-transformer": "^1.0.0"
   },
   "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThienNguyen2002/NewDayApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThienNguyen2002/NewDayApp/issues"
+  },
+  "homepage": "https://github.com/ThienNguyen2002/NewDayApp#readme",
   "description": ""
 }

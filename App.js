@@ -1,7 +1,6 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-
-import searchbar from "./components/SearchBar";
+import { StyleSheet, Text, View, Image, Button } from "react-native";
+import FlatButton from "./components/Button";
 
 //Search Screen blue print
 //Have a search bar to search for a city (with FSQ Auto complete API)
@@ -45,7 +44,9 @@ import searchbar from "./components/SearchBar";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+     <Image source={require('./assets/NewDayLogo.png')} style={styles.logo} />
+      
+      <FlatButton text="Get Started" onPress={() => console.log("Pressed!")}/>
       <StatusBar style="auto" />
     </View>
   );
@@ -54,8 +55,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#CCE8EC",
     alignItems: "center",
     justifyContent: "center",
   },
+  logo: {
+    width: 250,
+    height: 250,
+    resizeMode: "contain",
+  },
+  
 });
